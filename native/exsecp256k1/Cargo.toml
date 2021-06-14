@@ -10,6 +10,6 @@ path = "src/lib.rs"
 crate-type = ["dylib"]
 
 [dependencies]
-rustler = "0.21.1"
 lazy_static = "1.0"
 libsecp256k1 = "0.3.5"
+rustler = {git = "git://github.com/rusterlium/rustler.git", branch="master"}

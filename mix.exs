@@ -66,7 +66,7 @@ defmodule ExSecp256k1.MixProject do
 
   defp deps do
     [
-      {:rustler, "~> 0.21.1 "},
+      {:rustler, git: "git://github.com/rusterlium/rustler.git", branch: "master", sparse: "rustler_mix"},
       {:benchee, "~> 1.0.1", only: :test},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
